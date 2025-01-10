@@ -1,5 +1,5 @@
 import sqlite3 as sql
-#this is database connection
+
 with sql.connect('database.db') as conn :
     con=conn.cursor()
     try:
